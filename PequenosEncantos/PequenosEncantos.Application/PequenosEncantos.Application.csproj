@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Implementations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PequenosEncantos.API\PequenosEncantos.API.csproj" />
+    <ProjectReference Include="..\PequenosEncantos.Core\PequenosEncantos.Core.csproj" />
+    <ProjectReference Include="..\PequenosEncantos.Infrasctructure\PequenosEncantos.Infrasctructure.csproj" />
+  </ItemGroup>
+
+</Project>
